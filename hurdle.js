@@ -1,10 +1,12 @@
 const gameState = {
 }
 
+const side = Math.max(window.innerWdidth)
+
 const config = {
     type: Phaser.AUTO,
-    width: window.innerWidth * window.devicePixelRatio,
-    height: window.innerHeight * window.devicePixelRatio,
+    width: 0.9 * window.innerWidth,
+    height: 0.9 * window.innerHeight,
     scale: window.devicePixelRatio,
     backgroundColor: "#ffffff",
     scene: [StartScene]
