@@ -6,7 +6,7 @@ class StartScene extends Phaser.Scene {
 	create() {
 		let game = this.add.rectangle(width / 2, height / 2, width, height).setStrokeStyle(1, 0x444444).setOrigin(0.5);
 		let title = this.add.text(width / 2, height / 20, 'HURDLE', {fill: '#000000', font: `${width / 20}px Arial Black`})
-			.setOrigin(0.5).setStroke('#000000', 2);
+			.setOrigin(0.5).setStroke('#000000', 1);
 
 		let side = width / 8;
 		let spacing = width / 40;
